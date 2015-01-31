@@ -43,7 +43,6 @@ public class DefaultOrmRule implements IOrmRule
 		{
 			builder.append(changeFirstCharacterUpper(strings[i]));
 		}
-		
 		return builder.toString();
 	}
 
@@ -64,7 +63,6 @@ public class DefaultOrmRule implements IOrmRule
 			}
 		}
 		builder.append("_");
-		
 		return builder.toString().toUpperCase();
 	}
 
@@ -78,7 +76,6 @@ public class DefaultOrmRule implements IOrmRule
 		{
 			builder.append(changeFirstCharacterUpper(s));
 		}
-		
 		return builder.toString();
 	}
 
